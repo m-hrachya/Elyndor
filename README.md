@@ -40,18 +40,17 @@ After building the project, you can run the simulation with:
 ./simulation
 ```
 
-### Project Structure
+## Project Structure
 
-fantasy-kingdom-simulation/
-├── main.cpp                     # Entry point of the simulation
-├── kingdom/
-│   └── kingdom.cpp              # Code for managing the kingdom
-├── engine/
-│   └── engine.cpp               # Core engine logic
-├── creatures/
-│   ├── creatures.cpp            # Base creature class and utilities
-│   ├── elf.cpp                  # Implementation for the Elf creature
-│   └── goblin.cpp               # Implementation for the Goblin creature
+The project is organized into the following directories and files:
+
+### Code Files
+- **`main.cpp`**: Entry point of the simulation.
+- **`kingdom/kingdom.cpp`**: Code for managing the kingdom.
+- **`engine/engine.cpp`**: Core engine logic.
+- **`creatures/creatures.cpp`**: Base creature class and utilities.
+- **`creatures/elf.cpp`**: Implementation for the Elf creature.
+- **`creatures/goblin.cpp`**: Implementation for the Goblin creature.
 
 ### Author
 	•	Hrachya Margaryan
